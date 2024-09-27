@@ -15,7 +15,7 @@ app.use("/admin",adminRouter)
 
 
 async function main() {
-    await mongoose.connect("mongodb+srv://deepanshu:Deepanshu%40817@cluster0.4axd7.mongodb.net/coursera-app")
+    await mongoose.connect("")
     app.listen(3000);
     console.log("listening on port 3000")
 }
